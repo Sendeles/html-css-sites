@@ -1,0 +1,226 @@
+.greybox{
+    width: 834px;
+    height: 20px;
+    background: #DCDCDC;
+    color: darkgrey;
+    padding: 8px;
+}
+
+.container {
+    background-color: #DCDCDC;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.containerfoot {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+}
+
+.A4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.A4 .body {
+    padding: 30px;
+    background: white;
+    max-width: 1500px;
+    margin: 20px 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.A4 .footer {
+}
+
+.also h3{
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.also p {
+
+}
+
+.left {
+    width: 70%;
+
+}
+
+.right {
+    width: 30%;
+}
+
+.url {
+    color: red;
+    text-decoration: none;
+}
+.url:hover {
+    text-decoration: underline;
+}
+
+.url2 {
+    color: red;
+    text-decoration: none;
+}
+.url2:hover {
+    text-decoration: underline;
+}
+
+.url3 {
+    color: white;
+    text-decoration: none;
+}
+
+.url4 {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+}
+
+.url4:hover {
+    color: red;
+    border-bottom: none;
+    transition: 0.10s;
+}
+
+.url5 {
+    color: red;
+    text-decoration: none;
+}
+
+.url6 {
+    color: red;
+    text-decoration: none;
+    border-bottom: 1px dashed red;
+}
+
+.url6:hover {
+    color: black;
+    border-bottom: none;
+    transition: 0.10s;
+}
+
+.usefullinks {
+    justify-content: center;
+
+}
+
+.menu {
+    display: flex;
+    gap: 1px;
+}
+
+.metromap {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.middle {
+    display: flex;
+}
+
+.panel {
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    background-color: red;
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.10s;
+    font-size: 16px;
+    min-width: 1px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #242A41;
+    position: absolute;
+    padding: 10px 15px;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.9px;
+}
+
+.dropdown::after {
+    content: '\203A';
+    font-size: 25px;
+    line-height: 15px;
+    transform: rotate(0deg);
+    transition: 500ms;
+}
+
+.dropdown:hover::after{
+    transform: rotate(90deg);
+}
+
+.btn:hover {
+    background-color: #242A41;
+}
+
+.btn:hover .dropdown-content {
+    display: block;
+    margin-top: 35px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 10px 0;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+.ads {
+    color: red;
+    max-width: 147px;
+    width: 21em;
+    height: 21px;
+    border: 1px solid red;
+    padding: 8px 10px;
+}
+
+.enter {
+    margin: -5px 12px
+}
+
+.widget {
+    padding-top: 250px;
+    padding-left: 100px;
+    height: 200;
+}
+
+.line {
+    width: 1000px;
+}
+
+.bottomp {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 129px;
+}
