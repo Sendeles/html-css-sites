@@ -1,0 +1,1044 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 320px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.background1 {
+    background-image: url("image/hero-1.jpg");
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 255px 0;
+}
+
+.string {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 75px 0 75px;
+}
+
+.logo img, .activitor img {
+    width: 100%;
+}
+
+.menu {
+    margin: 9px 0px 0px 0px;
+}
+
+.menu a {
+    margin: 0 15px 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+.menu a:hover {
+    color: #e4381C;
+    transition: 0.50s;
+    border-bottom: 3px solid #e4381C;
+}
+
+.socials {
+    font-size: 18px;
+    color: white;
+}
+
+.socials i {
+    margin: 10px 10px 0 0;
+}
+
+
+.greyline {
+    margin: 0 75px 0 75px;
+    height: 60px;
+    background-color: #4c4c4c;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.greyline i {
+    margin: 1px 0px 0 5px;
+}
+
+.dws-menu {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #222;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.content-dropdown-in {
+    display: none;
+    position: absolute;
+    top: 60px;
+    background: #4c4c4c;
+    width: 100%;
+    padding: 30px 10px 10px 10px;
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+
+.content-dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dws-menu:hover + .content-dropdown-in {
+    display: block;
+}
+
+.content-dropdown-in:hover {
+    display: block;
+}
+
+.content-dropdown-in a {
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+    margin: 5px 0 0 20px;
+    display: block;
+    padding: 5px 0 5px 10px;
+}
+
+.content-dropdown-in a:hover {
+    border-radius: 5px;
+    background-color: #bdb7b7;
+    color: black;
+}
+
+
+.background1txt {
+    margin-top: 350px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.background1txt h1 {
+    font-size: 300%;
+}
+
+.background1txt h2 {
+    font-size: 400%;
+}
+
+#button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid orangered;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 5px;
+}
+
+#button:hover {
+    background-color: orangered;
+    transition: 1s;
+}
+
+.button {
+    margin: 30px 0 0 0;
+}
+
+.background2 {
+    display: flex;
+}
+
+.feature {
+    width: 100%;
+
+}
+
+.feature_padding {
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.feature_padding:after {
+    content: "";
+    width: 100%;
+    border-bottom: 6px solid orangered;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+}
+
+.feature_padding:hover:after {
+    transition: 700ms;
+    opacity: 1;
+}
+
+.feature h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.feature p {
+    color: white;
+    text-align: center;
+    margin: 25px 0 50px 0;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.feature1 {
+    background-image: url("image/feature-1.jpg");
+
+}
+
+.feature2 {
+    background-image: url("image/feature-2.jpg");
+
+}
+
+.feature3 {
+    background-image: url("image/feature-3.jpg");
+
+}
+
+.background3 {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+}
+
+.biceps {
+    width: 50%;
+}
+
+.crossfit {
+    margin: 100px 25px 100px 50px;
+}
+
+.button2 {
+    margin: 0 0 0 15px;
+    text-transform: uppercase;
+}
+
+#button2 {
+    text-decoration: none;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 5px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    background: rgb(225, 101, 33);
+    background: linear-gradient(90deg, rgba(225, 101, 33, 1) 0%, rgba(228, 56, 28, 1) 100%);
+    padding: 14px 30px;
+    font-weight: bold;
+}
+
+.kachok {
+    margin: 100px 50px 100px 25px;
+}
+
+.kachok img {
+    width: 100%;
+}
+
+.background3 h2 {
+    color: white;
+    padding: 0 0 0 15px;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    margin: 0 0 35px 0;
+}
+
+.background3 p {
+    color: white;
+    padding: 0 0 0 15px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.short-detail {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+}
+
+.long-detail {
+    margin: 0 0 40px 0;
+}
+
+.background4 {
+    background-image: url("image/backline.jpg");
+    text-align: center;
+}
+
+.background4 h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    margin: 40px 0 0 0;
+}
+
+.background4 p {
+    color: white;
+    margin: 0 0 40px 0;
+}
+
+.background5 {
+    display: flex;
+}
+
+.background5 h4 {
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+.background5 p {
+    color: white
+}
+
+.programs {
+    width: 100%;
+    position: relative;
+}
+
+.programsforall {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 25px 0 45px;
+}
+
+.programsforall:after {
+    content: "";
+    width: 100%;
+    border-bottom: 6px solid orangered;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+}
+
+.programsforall:hover:after {
+    transition: 700ms;
+    opacity: 1;
+}
+
+.programs1 {
+    background-image: url("image/class-1.jpg");
+}
+
+.programs2 {
+    background-image: url("image/class-2.jpg");
+}
+
+.programs3 {
+    background-image: url("image/class-3.jpg");
+}
+
+.programs4 {
+    background-image: url("image/class-4.jpg");
+}
+
+.button3 {
+    text-transform: uppercase;
+    margin: 40px 0 0 0;
+}
+
+.background6 {
+    background-color: #151515;
+}
+
+.calendar {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.background7 {
+    background-image: url("image/price-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.price {
+    margin: 40px 0 0 0;
+    color: white;
+}
+
+.price h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.price p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+.cost {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 75px 0 40px 0;
+
+}
+
+.cost span {
+    font-size: 8px;
+}
+
+.cost_column {
+    background-color: white;
+    width: 305px;
+
+}
+
+.cost_column h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin: 35px 0 0 0;
+
+}
+
+.cost_column h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0 0 0;
+}
+
+.cost_column dt {
+    margin: 20px 0 0 0;
+}
+
+.type {
+    border: 1px solid;
+}
+
+.money {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 0 0;
+
+}
+
+.dollar {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.value {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.button4 {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+#button4 {
+    text-decoration: none;
+    color: orangered;
+    padding: 10px 20px;
+    border: 1px solid orangered;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#button4:hover {
+    background-color: orangered;
+    transition: 1s;
+    color: white;
+}
+
+.background8 {
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+}
+
+.peculiarity {
+    margin: 100px 0 0 0;
+    color: white;
+}
+
+.peculiarity h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.peculiarity p {
+    margin: 30px 0 0 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.tables6 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.tables6 img {
+    display: block;
+    height: 60px;
+}
+
+.delenie {
+    width: 33%;
+}
+
+.zone {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture {
+    margin: 45px 0 20px 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.description h2, p {
+    margin: 0px 10px 20px 0;
+}
+
+.description p {
+    color: #afb4bf;
+}
+
+.background9 {
+    background-image: url("image/videobg.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px;
+}
+
+.background10 {
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+}
+
+.size {
+    width: 1200px;
+    min-width: 320px;
+}
+
+.blog {
+    margin: 40px 0 0 0;
+    color: white;
+}
+
+.blog h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+.blog p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.pillar {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.pillar h4 {
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.pillar p {
+    font-size: 20px;
+}
+
+.pillar img {
+    width: 100%;
+    height: 100%;
+}
+
+.pillarcolumn {
+    margin: 0 15px 0 15px;
+}
+
+.pillar1 {
+    position: relative;
+    margin: 0 0 30px 0;
+}
+
+.orangeh4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orangeh4 i {
+    margin: 0 10px 0 0;
+}
+
+.gym {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.pillar6 {
+    height: 50%;
+    overflow: hidden;
+}
+
+.background11 {
+    background-color: #e3471e;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.background11 h3 {
+
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+
+.background11 p {
+    color: white;
+}
+
+.starttoday {
+    display: flex;
+    flex-direction: column;
+}
+
+.button5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button5 {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.background12 {
+    position: relative;
+}
+
+.map-detail {
+    background-color: white;
+    position: absolute;
+    width: 340px;
+    top: 80px;
+    right: 85px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.map-detail h3 {
+    font-size: 20px;
+    font-weight: 500;
+    float: left;
+    text-transform: uppercase;
+}
+
+.map-detail ul li {
+    font-size: 14px;
+    list-style: none;
+    line-height: 30px;
+    position: relative;
+    padding-right: 108px;
+
+}
+
+.weekday-right {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.day-left .time-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.day-left, .time-right h4 {
+    padding: 0 15px 0 0;
+    line-height: 30px;
+    margin: 0 1px 0 0;
+}
+
+.contact-us {
+    margin-top: 20px;
+}
+
+.textenter {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.textenter input {
+    height: 30px;
+    width: 135px;
+    font-size: 10pt;
+    float: left;
+    padding-left: 10px;
+}
+
+.message {
+    margin: 10px 0 0 0;
+}
+
+.message input {
+    height: 65px;
+    padding: 0 0 0 10px;
+    width: 325px;
+}
+
+.background13 {
+    background-color: #151515;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.background13 i {
+    color: orangered;
+}
+
+.background13 h2, h3 {
+    font-size: 18px;
+}
+
+.all-in-one {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0 40px 0;
+}
+
+.all-in-one h1 {
+    font-size: 20px;
+}
+
+.indent {
+    margin: 0 40px 0 0;
+}
+
+.indent p {
+    margin: 10px 0 0 60px;
+    color: #afb4bf;
+}
+
+.activitor h4, .activitor p {
+    margin: 30px 0 0 0;
+}
+
+.follow-us {
+    margin: 10px 0 0 0;
+}
+
+.follow-us a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.follow-us i {
+    margin: 0 30px 0 0;
+}
+
+.forum h2 {
+    margin: 30px 0 0 0;
+}
+
+.forum h3 {
+    margin: 40px 0 0 0;
+}
+
+.program h3 {
+    margin: 40px 0 0 0;
+}
+
+.program h2 {
+    margin: 31px 0 0 0;
+}
+
+.get-info h3 {
+    margin: 40px 0 0 30px;
+}
+
+.get-info p {
+
+}
+
+.get-info i {
+    margin: 0 10px 0 0;
+}
+
+.background14 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.background14 p {
+    margin: 20px 0 20px 0;
+}
+
+.url14 {
+    color: #e4381c;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    .menu a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .size {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .size {
+        width: 760px;
+    }
+
+    .socials {
+        display: none;
+    }
+
+
+    .background5 {
+        flex-wrap: wrap;
+    }
+
+    .tables6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .table1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zone {
+        margin: 0;
+    }
+
+    .down6 {
+
+    }
+
+    .delenie {
+        width: 50%;
+    }
+
+    .background13 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .all-in-one {
+        flex-direction: column;
+    }
+
+    .activitor img {
+        width: 30%;
+    }
+
+    .indent {
+        margin: 40px 0 0 0;
+    }
+
+    .indent p {
+        margin: 10px 0 0 0;
+    }
+
+    .program h2 {
+        margin: 20px 0 0 0;
+    }
+
+    .get-info h3 {
+        margin: 30px 0 0 0;
+    }
+
+    br {
+        display: none;
+    }
+
+    .programs {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .size {
+        width: 480px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .background2 {
+        flex-direction: column;
+    }
+
+    .feature1, .feature2, .feature3   {
+        background-size: cover;
+    }
+
+    .background3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .biceps {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .cost {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cost_column {
+        margin-bottom: 20px;
+        width: 465px;
+    }
+
+    .pillar {
+        flex-direction: column;
+    }
+
+    .pillar h4 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .pillar p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .background8 {
+        padding: 0 0 0 20px;
+    }
+
+    .background11 {
+        padding: 0 0 0 20px;
+        flex-direction: column;
+    }
+
+    .button5 {
+        justify-content: left;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .size {
+        width: 100%;
+    }
+
+    .cost_column {
+        width: 350px;
+    }
+
+    .delenie {
+        width: 100%;
+    }
+
+    .programs {
+        width: 100%;
+    }
+}
