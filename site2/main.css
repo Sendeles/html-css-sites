@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.block1 {
+
+    background-image: url("image.jpg");
+    width:100%;
+    background-size: cover;
+    padding: 130px 0;
+}
+
+.block1 h1 {
+    color: white;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+
+}
+
+.block1 p {
+    color: white;
+    padding-left: 30px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+.block2 {
+    background-image: url(heart.jpg);
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.help {
+    display: flex;
+    justify-content: center;
+    margin: -90px 0px;
+    padding: 40px;
+}
+
+.help h3 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin: 0 0 15px 0;
+}
+
+.help p {
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+.help img {
+    display: block;
+    height: 74px;
+    width: 59px;
+    margin: 0 0 20px 0;
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+.down {
+    margin: 0 0 50px 0;
+}
+
+
+.help1 {
+    background-color: #ccd3db;
+}
+
+.help2 {
+    background-color: #868e99;
+}
+
+.help3 {
+    background-color: #555e67;
+}
+
+.block2 h1 {
+    padding-top: 90px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.block2 span {
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    height: 61px;
+}
+
+.block2x2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.block2x2 h3 {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 31px;
+}
+
+.block2x2 p {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    padding-left: 31px;
+}
+
+.block2x2 img {
+    height: 41px;
+    width: 43px;
+    margin-left: 44px;
+}
+
+.category {
+    display: flex;
+}
+
+.category .right {
+    height: 73px;
+}
+
+.category .left {
+    height: 100%;
+}
+
+.block3 {
+    background-color: #868e99;
+    width:100%;
+    height: 267px;
+}
+
+.block3bot {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 8px;
+    color: white;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.block3bot img {
+    height: 51px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.block3 h1 {
+    color: white;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.block3 span {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    height: 61px;
+}
+
+.block4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgblock4, .txtblock4 {
+    width: 50%;
+}
+
+.imgblock4 {
+    margin: 50px 25px 50px 50px;
+
+}
+
+.txtblock4 {
+    margin: 50px 50px 50px 25px;
+
+}
+
+.imgblock4 img {
+    width: 100%;
+}
+
+.txtblock4 h1 {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.txtblock4 p {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.block5 {
+    background-color: hsl(213deg 22% 90%);
+    width:100%;
+    height: 531px;
+}
+
+.block5 h1 {
+    padding-top: 27px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.block5 span {
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    height: 33px;
+}
+
+.block5bot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 39px;
+}
+
+.block5bot img {
+    height: 100%;
+    width: 100%;
+}
+
+.block5bot h3 {
+    padding: 10px 0 0 15px;
+    font-size: 13px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.block5bot p {
+    padding: 10px 0 0 15px;
+    font-size: 10px;
+}
+
+.block5bot a {
+    text-transform: uppercase;
+    padding: 10px 0 0 15px;
+    color: #8ca1af;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.picture {
+    height: 300px;
+    width: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picture .first {
+    height: 100%;
+}
+
+.picture .second {
+    height: 100%;
+}
+
+.children {
+    background-color: white;
+}
+
+.dentist {
+    background-color: white;
+}
+
+.cbirth {
+    background-color: white;
+}
+
+.block6 {
+    background-color: #555e67;
+    width:100%;
+}
+
+.block6 h1 {
+    color: white;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.block6 span {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    height: 61px;
+}
+
+.block6bot {
+    display: flex;
+    justify-content: center;
+}
+
+.map {
+    width: 100%;
+}
+
+.block7 {
+    background-color: white;
+    width:100%;
+    height: 502px;
+}
+
+.block7 h1 {
+    padding-top: 27px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.block7 span {
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    height: 14px;
+}
+
+.block7bot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 39px;
+}
+
+.block7bot h3 {
+    padding: 10px 0 0 13px;
+    font-size: 15px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.block7bot p {
+    padding-left: 12px;
+    display: block;
+    font-size: 10px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    height: 14px;
+}
+
+.block7bot img {
+    width: 100%;
+    height: 100%;
+}
+
+.doctor {
+    height: 335px;
+    width: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.doctor .first {
+    height: 100%;
+}
+
+.doctor .second {
+    height: 80px;
+}
+
+.doctora {
+    background-color: #e0e5eb;
+}
+
+.doctorb {
+    background-color: #ccd3db;
+}
+
+.doctorc {
+    background-color: #868e99;
+}
+
+.block8 {
+    background-color: #868e99;
+    width:100%;
+    height: 400px;
+}
+
+.block8 h1 {
+    color: white;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.block8 span {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    height: 61px;
+}
+
+.block8bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 105px;
+}
+
+
+.textenter input {
+    width: 100%;
+    height: 29px;
+    background: #555d67;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #9b9fa5;
+    padding-left: 10px;
+}
+
+.textenter textarea {
+    width: 100%;
+    height: 79px;
+    background: #555d67;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: white;
+    padding-left: 10px;
+}
+
+.eyn {
+
+}
+
+
+.eyn input#name {
+
+}
+
+.evea {
+    padding-top: 13px;
+
+}
+
+.evea input#email {
+
+}
+
+.eym {
+    padding-top: 13px;
+}
+
+.eym textarea#mess {
+
+}
+
+.button1 {
+    color: white;
+    background-color: #4a6382;
+    width: 184px;
+    height: 16px;
+    padding: 9px 2px;
+    margin: 15px 45px;
+    cursor: pointer;
+}
+
+.button1 span {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 13px 13px;
+    margin: 87px 2px;
+}
+
+#button2 {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #e0e5ec;
+    text-decoration: none;
+    position: relative;
+    width: 118px;
+    padding: 7px 6px;
+    margin: 21px 313px;
+    border: none;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+
+

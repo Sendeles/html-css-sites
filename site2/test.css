@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainblock {
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+.block2 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+.block3 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
